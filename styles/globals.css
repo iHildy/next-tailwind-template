@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.trans {
+    @apply transition duration-300 ease-in-out;
+}
+
+::-moz-selection {
+  background: #CompanyColor;
+  color: #000000;
+}
+
+::-webkit-selection {
+  background: #CompanyColor;
+  color: #000000;
+}
+
+::selection {
+  background: #CompanyColor;
+  color: #ffffff;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  background: #CompanyColorDarker;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #CompanyColorDarker;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #CompanyColor;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #CompanyColor;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+* {
+ font-variant-ligatures: none;
+}
+
+#__next {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.text-shadow {
+    text-shadow: 0 1px 3px rgba(0,0,0,.1), 0 1px 2px rgba(0,0,0,.06);
+}

@@ -1,0 +1,11 @@
+{
+  "github": {
+    "silent": true
+  },
+  "trailingSlash": true,
+  "redirects": [
+    { "source": "/insta", "destination": "/instagram" },
+    { "source": "/twitter", "destination": "https://twitter.com/@Company" },
+    { "source": "/instagram", "destination": "https://instagram.com/@Company" }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "name": "next-tailwind-template",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Template for Next.js with Tailwind CSS with great SEO",
+  "main": "pages/index.js",
+  "scripts": {
+    "build": "next build",
+    "dev": "next",
+    "start": "next start",
+    "format": "yarn prettier --write .",
+    "find:unused": "next-unused"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iHildy/next-tailwind-template.git"
+  },
+  "keywords": [
+    "tailwind",
+    "next",
+    "template"
+  ],
+  "author": "iHildy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iHildy/next-tailwind-template/issues"
+  },
+  "homepage": "https://github.com/iHildy/next-tailwind-template#readme",
+  "dependencies": {
+    "@loadable/component": "^5.14.1",
+    "@tailwindcss/typography": "^0.3.1",
+    "autoprefixer": "^10.1.0",
+    "dotenv": "^8.2.0",
+    "next": "^10.1.1",
+    "next-seo": "^4.17.0",
+    "next-themes": "0.0.10",
+    "prettier": "2.2.1",
+    "react": "17.0.1",
+    "react-dom": "^17.0.1",
+    "react-ga": "^3.3.0",
+    "react-headroom": "^3.1.0",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.2.0",
+    "react-router-dom": "^5.2.0",
+    "tailwindcss": "^2.x"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.0",
+    "postcss": "^8.2.1",
+    "postcss-loader": "^4.1.0",
+    "postcss-preset-env": "^6.7.0",
+    "husky": "^4.3.8",
+    "lint-staged": "^10.5.3",
+    "next-unused": "^0.0.3"
+ },
+ "lint-staged": {
+    "**/*.{js,jsx,ts,tsx}": [
+      "prettier --write",
+      "git add"
+    ],
+    "**/*.{md,mdx,json}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "next-unused": {
+    "alias": {
+      "@lib/*": [
+        "lib/*"
+      ],
+      "@assets/*": [
+        "assets/*"
+      ],
+      "@config/*": [
+        "config/*"
+      ],
+      "@components/*": [
+        "components/*"
+      ],
+      "@utils/*": [
+        "utils/*"
+      ]
+    },
+    "debug": true,
+    "include": [
+      "components",
+      "lib",
+      "pages"
+    ],
+    "exclude": [],
+    "entrypoints": [
+      "pages"
+    ]
+  }
+}
