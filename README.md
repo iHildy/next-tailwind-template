@@ -7,13 +7,13 @@ Stack: Next.js / React, Tailwind CSS, Prettier
 
 ### Clone this template
 
-Press "Use this template" in the top right of the code contianer on the github page
-Then in your new repository copy the git URL and clone the repo
-Open in your Editor
+1. Press "Use this template" in the top right of the code container on the GitHub page.
+1. Then in your new repository copy the Git URL and clone the repo.
+1. Open the folder in your code editor.
 
 ### Clone this template
 
-Press "Use this template" in the top right of the code contianer on the github page
+Press "Use this template" in the top right of the code container on the GitHub page.
 
 ### First install the packages:
 
@@ -33,7 +33,7 @@ You can start editing the page by modifying `pages/index.jsx`. The page auto-upd
 
 ### Add your company assets
 
-Set all of these by search and replacing in the scope of the root/whole project
+Set all of these by search and replacing in the scope of the root/whole project:
 
 ```
 CompanyName
@@ -57,22 +57,23 @@ next-seo.config.js
 /styles/globals.css
 ```
 
-### Tailwind Setup
+### Tailwind CSS setup
 
-Go to tailwind.config.js
-Input your colors and shades of that color (use something like https://noeldelgado.github.io/shadowlord/)
+Open the `tailwind.config.js` file.
+Input your colors and shades of that color (use something like https://noeldelgado.github.io/shadowlord/).
 
-The default font is **Public Sans** but you can set your own with line 1 of `/styles/globals.css`
+The default font is **Public Sans** but you can set your own by changing line 1 of the `/styles/globals.css` file.
 
-### Image Setup
+### Image setup
 
-You store your images in the /public folder, included is a bunch of broken image names that you should replace with your own.
-T=transparent
-C=circle
+Store your images in the `/public` folder, this template includes a bunch of broken image names that you should replace with your own.
+
+- T=transparent
+- C=circle
 
 ### Code
 
-Get to work! Feel free to send me what you make with this, would love to see it
+Get to work! Feel free to send me what you make with this, I would love to see it!
 
 Contact: `ian@jedi.net`
 
