@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="2048" height="1170" src="https://cdn.discordapp.com/attachments/784637379830218752/838280225468842014/Template.png" alt="Banner Image">
+  <img src="https://cdn.discordapp.com/attachments/784637379830218752/838280225468842014/Template.png" alt="Banner Image">
 Stack: Next.js / React, Tailwind CSS, Prettier 
 </div>
 
