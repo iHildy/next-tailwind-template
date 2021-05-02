@@ -2,12 +2,12 @@ import { NextSeo } from "next-seo";
 import Link from "next/link";
 import loadable from "@loadable/component";
 
-const Container = loadable(() => import("@/components/Container"));
+const Shell = loadable(() => import("@/components/Shell"));
 
 export default function NotFound() {
   return (
     <div>
-      <Container />
+      <Shell />
       <NextSeo title="Uber Eats Sale - 500" description="500" />
       <div className="flex flex-col justify-center mx-auto mt-12 text-center max-w-2x1">
         <h1 className="mb-4 text-6xl font-bold tracking-tight text-black md:text-5xl dark:text-lightwhite">

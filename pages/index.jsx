@@ -2,7 +2,7 @@ import loadable from "@loadable/component";
 import { NextSeo } from "next-seo";
 
 const Head = loadable(() => import("next/head"));
-const Container = loadable(() => import("@/components/Container"));
+const Shell = loadable(() => import("@/components/Shell"));
 const Hero = loadable(() => import("@/components/Hero"));
 const LayoutGA = loadable(() => import("@/components/LayoutGA"));
 
@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <LayoutGA>
       <body className="text-black bg-white dark:bg-black dark:text-white">
-        <Container>
+        <Shell>
           <div>
             <Head>
               {/* Use https://metatags.io for this */}
@@ -53,7 +53,7 @@ const Home = () => {
               <Hero />
             </div>
           </div>
-        </Container>
+        </Shell>
       </body>
     </LayoutGA>
   );

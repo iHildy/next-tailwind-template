@@ -1,5 +1,5 @@
-const shell = () => {
+const Shell = () => {
   return <div></div>;
 };
 
-export default shell;
+export default Shell;

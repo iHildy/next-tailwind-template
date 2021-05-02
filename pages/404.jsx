@@ -2,13 +2,13 @@ import Link from "next/link";
 import { NextSeo } from "next-seo";
 import loadable from "@loadable/component";
 
-const Container = loadable(() => import("@/components/Container"));
+const Shell = loadable(() => import("@/components/Shell"));
 
 export default function NotFound() {
   return (
     <div>
       <NextSeo title="Uber Eats Sale - 404" description="404" />
-      <Container />
+      <Shell />
       <div className="flex flex-col justify-center mx-auto mt-32 text-center max-w-2x1">
         <h1 className="mb-4 text-5xl font-bold tracking-tight text-black dark:text-lightwhite">
           404 – Unavailable

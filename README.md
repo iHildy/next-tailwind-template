@@ -41,6 +41,7 @@ ShortSlogan
 CompanyDescription
 CompanyImage (remote url, include https://, you can use something like https://og-image.wzulfikar.com/)
 CompanyColor (hex code without the #)
+Add your google analytics ID as GA_ENV in an env file
 ```
 
 ### Checking company assets
