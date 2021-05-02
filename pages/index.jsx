@@ -4,6 +4,7 @@ import { NextSeo } from "next-seo";
 const Head = loadable(() => import("next/head"));
 const Shell = loadable(() => import("@/components/Shell"));
 const Hero = loadable(() => import("@/components/Hero"));
+const Nav = loadable(() => import("@/components/Nav"));
 const LayoutGA = loadable(() => import("@/components/LayoutGA"));
 
 const Home = () => {
@@ -50,6 +51,7 @@ const Home = () => {
               description="CompanyDescription"
             />
             <div className="flex flex-col items-start justify-center mx-auto mb-16">
+              <Nav />
               <Hero />
             </div>
           </div>

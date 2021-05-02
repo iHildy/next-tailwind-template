@@ -1,19 +1,21 @@
 import React from "react";
-import Button from "./components/Button";
-import logoT from "../images/logoT.png";
+import Button from "./Button";
+import Image from "next/image";
 
 const Nav = () => {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
     <>
       {/* i know this is bad code */}
-      <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 mb-3">
+      <nav className="relative flex flex-wrap items-center w-full justify-between px-2 py-3 mb-3">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <div className="font-bold mr-4 py-2 text-xl flex items-center uppercase">
-              <img
-                src={logoT}
+              <Image
+                src="/logoT.png"
                 alt="CompanyName Logo"
+                width="20"
+                height="20"
                 className="h-12 pr-3 tracking-tighter"
               />
               <p>CompanyName</p>
@@ -42,7 +44,7 @@ const Nav = () => {
           >
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
               <li className="nav-item">
-                <Button link="https://goggle.com" text="Login" />
+                <Button link="https://google.com" text="Login" />
               </li>
             </ul>
           </div>
