@@ -1,9 +1,5 @@
 const shell = () => {
-    return (
-        <div>
-            
-        </div>
-    )
-}
+  return <div></div>;
+};
 
-export default shell
+export default shell;

@@ -9,7 +9,7 @@ Stack: Next.js / React, Tailwind CSS, Prettier
 
 Press "Use this template" in the top right of the code contianer on the github page
 Then in your new repository copy the git URL and clone the repo
-Open in your Editor 
+Open in your Editor
 
 ### Clone this template
 
@@ -34,23 +34,46 @@ You can start editing the page by modifying `pages/index.jsx`. The page auto-upd
 ### Add your company assets
 
 Set all of these by search and replacing in the scope of the root/whole project
+
 ```
 CompanyName
 ShortSlogan
 CompanyDescription
-CompanyImage (remote url, include https://)
+CompanyImage (remote url, include https://, you can use something like https://og-image.wzulfikar.com/)
 CompanyColor (hex code without the #)
 ```
 
-#### Extra Search Engine Optimization
+### Checking company assets
 
 Go through these files and double check that everything fits your brand.
+
 ```
 /public/site.webmanifest
+next-seo.config.js
 /public/robots.txt
 /public/sitemap.xml
 /config/seo.json
+/styles/globals.css
 ```
+
+### Tailwind Setup
+
+Go to tailwind.config.js
+Input your colors and shades of that color (use something like https://noeldelgado.github.io/shadowlord/)
+
+The default font is **Public Sans** but you can set your own with line 1 of `/styles/globals.css`
+
+### Image Setup
+
+You store your images in the /public folder, included is a bunch of broken image names that you should replace with your own.
+T=transparent
+C=circle
+
+### Code
+
+Get to work! Feel free to send me what you make with this, would love to see it
+
+Contact: `ian@jedi.net`
 
 ### Deploy on Vercel
 

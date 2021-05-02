@@ -30,10 +30,7 @@ const Home = () => {
               <meta property="og:title" content="CompanyName — ShortSlogan" />
               <meta property="og:description" content="CompanyDescription" />
               {/* Use something like https://og-image.wzulfikar.com/ for this */}
-              <meta
-                property="og:image"
-                content="CompanyImage"
-              />
+              <meta property="og:image" content="CompanyImage" />
 
               <meta property="twitter:card" content="summary_large_image" />
               <meta property="twitter:url" content="CompanyUrl" />
@@ -46,10 +43,7 @@ const Home = () => {
                 content="CompanyDescription"
               />
               {/* Use something like https://og-image.wzulfikar.com/ for this */}
-              <meta
-                property="twitter:image"
-                content="CompanyImage"
-              />
+              <meta property="twitter:image" content="CompanyImage" />
             </Head>
             <NextSeo
               title="CompanyName - Home"

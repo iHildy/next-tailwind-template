@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 .trans {
-    @apply transition duration-300 ease-in-out;
+  @apply transition duration-300 ease-in-out;
 }
 
 ::-moz-selection {
@@ -45,15 +45,15 @@
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 * {
- font-variant-ligatures: none;
+  font-variant-ligatures: none;
 }
 
 #__next {
@@ -63,5 +63,5 @@ body {
 }
 
 .text-shadow {
-    text-shadow: 0 1px 3px rgba(0,0,0,.1), 0 1px 2px rgba(0,0,0,.06);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
 }
