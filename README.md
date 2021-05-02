@@ -1,6 +1,6 @@
 <div align="center">
   <img src="https://cdn.discordapp.com/attachments/784637379830218752/838280225468842014/Template.png" alt="Banner Image">
-Stack: Next.js / React, TailwindCSS, Prettier 
+Stack: Next.js / React, Tailwind CSS, Prettier 
 </div>
 
 ## Getting Started
