@@ -1,5 +1,5 @@
 <div align="center">
-<h1 align="center">next-tailwind-template</h1> 
+![Banner Image](https://cdn.discordapp.com/attachments/784637379830218752/838280225468842014/Template.png)
 Stack: Next.js / React, Tailwind CSS, Prettier 
 </div>
 
