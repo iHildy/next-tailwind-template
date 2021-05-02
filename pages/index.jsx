@@ -3,8 +3,10 @@ import { NextSeo } from "next-seo";
 
 const Head = loadable(() => import("next/head"));
 const Shell = loadable(() => import("@/components/Shell"));
+const Banner = loadable(() => import("@/components/Banner"));
 const Hero = loadable(() => import("@/components/Hero"));
 const Nav = loadable(() => import("@/components/Nav"));
+const Features = loadable(() => import("@/components/Features"));
 const LayoutGA = loadable(() => import("@/components/LayoutGA"));
 
 const Home = () => {
@@ -50,9 +52,11 @@ const Home = () => {
               title="CompanyName - Home"
               description="CompanyDescription"
             />
-            <div className="flex flex-col items-start justify-center mx-auto mb-16">
+            <div className="w-full mb-16">
+              <Banner />
               <Nav />
               <Hero />
+              <Features />
             </div>
           </div>
         </Shell>
