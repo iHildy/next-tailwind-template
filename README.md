@@ -57,7 +57,7 @@ next-seo.config.js
 /styles/globals.css
 ```
 
-### TailwindCSS setup
+### Tailwind CSS setup
 
 Open the `tailwind.config.js` file.
 Input your colors and shades of that color (use something like https://noeldelgado.github.io/shadowlord/).
