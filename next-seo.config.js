@@ -1,5 +1,5 @@
 const SEO = {
-  canonical: "https://ubereats.sale/",
+  canonical: "CompanyUrl",
   title: "CompanyName — ShortSlogan",
   titleTemplate: "%s - CompanyName",
   description: "CompanyDescription",
