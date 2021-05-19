@@ -27,8 +27,8 @@
   },
   "homepage": "https://github.com/iHildy/next-tailwind-template#readme",
   "dependencies": {
-    "@headlessui/react": "^1.1.1",
-    "@loadable/component": "^5.15.0",
+    "@headlessui/react": "^1.2.0",
+    "@loadable/component": "^5.14.1",
     "@tailwindcss/typography": "^0.4.0",
     "autoprefixer": "^10.1.0",
     "dotenv": "^9.0.2",
