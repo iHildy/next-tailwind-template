@@ -42,7 +42,7 @@
     "react-headroom": "^3.1.0",
     "react-helmet": "^6.1.0",
     "react-icons": "^4.2.0",
-    "react-router-dom": "^5.2.0",
+    "react-router-dom": "^5.3.0",
     "tailwindcss": "^2.x"
   },
   "devDependencies": {
