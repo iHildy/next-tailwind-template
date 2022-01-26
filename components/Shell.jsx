@@ -1,7 +1,7 @@
 export default function Shell({ children }) {
   return (
-    <div className="bg-white w-full h-screen">
-      <main className="flex flex-col justify-center w-full bg-white">
+    <div id="bg-here" className="w-full h-full overflow-x-hidden scroll-smooth">
+      <main className="flex flex-col justify-center w-full scroll-smooth">
         {children}
       </main>
     </div>

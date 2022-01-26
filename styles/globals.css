@@ -3,45 +3,75 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@tailwind variants;
 
-.trans {
-  @apply transition duration-300 ease-in-out;
+@layer base {
+  /* @font-face {
+    font-family: "freXWideReg";
+    font-weight: normal;
+    font-display: auto;
+    font-style: normal;
+    -webkit-font-variant-ligatures: no-common-ligatures;
+    text-rendering: optimizeLegibility;
+    src: url("/fonts/Freigeist/freigeist-xconregular.ttf") format("truetype");
+  } */
+}
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
+  }
+
+  .trans {
+    @apply transition duration-300 ease-in-out;
+  }
+}
+
+#bg-here {
+  /* overflow-x: hidden; */
+  background: url(https://i.imgur.com/MvOM3JU.jpeg) no-repeat center center;
+  /* background: url('../public/background.png') no-repeat center center fixed; */
+  /* height: 100vh; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #0c0c0c;
 }
 
 ::-moz-selection {
-  background: #CompanyColor;
+  background: #fff;
   color: #000000;
 }
 
 ::-webkit-selection {
-  background: #CompanyColor;
+  background: #fff;
   color: #000000;
 }
 
 ::selection {
-  background: #CompanyColor;
-  color: #ffffff;
+  background: #fff;
+  color: #000000;
 }
 
-/* width */
-::-webkit-scrollbar {
-  width: 10px;
-  background: #CompanyColorDarker;
+@media only screen and (min-width: 640px) {
+  ::-webkit-scrollbar {
+    width: 10px;
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #111111;
+  }
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #CompanyColorDarker;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #CompanyColor;
+  background: transparent;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #CompanyColor;
+  background: #404040;
 }
 
 html {
@@ -60,8 +90,4 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-}
-
-.text-shadow {
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.06);
 }
