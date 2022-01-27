@@ -35,7 +35,7 @@
     "next": "^12.0.8",
     "next-seo": "^4.17.0",
     "next-themes": "0.0.15",
-    "prettier": "2.5.1",
+    "prettier": "^2.5.1",
     "react": "17.0.2",
     "react-dom": "^17.0.1",
     "react-headroom": "^3.1.0",
@@ -51,7 +51,8 @@
     "next-unused": "^0.0.6",
     "postcss": "^8.2.1",
     "postcss-loader": "^6.2.1",
-    "postcss-preset-env": "^7.2.3"
+    "postcss-preset-env": "^7.2.3",
+    "prettier-plugin-tailwindcss": "^0.1.4"
   },
   "lint-staged": {
     "**/*.{js,jsx,ts,tsx}": [

@@ -9,12 +9,12 @@ export default function NotFound() {
     <div>
       <NextSeo title="Uber Eats Sale - 404" description="404" />
       <Shell />
-      <div className="flex flex-col justify-center mx-auto mt-32 text-center max-w-2x1">
-        <h1 className="mb-4 text-5xl font-bold tracking-tight text-black dark:text-lightwhite">
+      <div className="max-w-2x1 mx-auto mt-32 flex flex-col justify-center text-center">
+        <h1 className="dark:text-lightwhite mb-4 text-5xl font-bold tracking-tight text-black">
           404 – Unavailable
         </h1>
         <Link href="/">
-          <a className="w-64 p-1 mx-auto font-bold text-center text-black border border-gray-500 rounded-lg sm:p-4 dark:text-lightwhite">
+          <a className="dark:text-lightwhite mx-auto w-64 rounded-lg border border-gray-500 p-1 text-center font-bold text-black sm:p-4">
             Return Home
           </a>
         </Link>

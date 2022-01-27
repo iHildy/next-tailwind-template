@@ -11,7 +11,7 @@ export default function App({ Component, pageProps }) {
       <Head className="scroll-smooth">
         <meta content="width=device-width, initial-scale=1" name="viewport" />
       </Head>
-      <body className="bg-background scroll-smooth">
+      <body className="scroll-smooth bg-background">
         <DefaultSeo {...SEO} />
         <Component {...pageProps} />
       </body>

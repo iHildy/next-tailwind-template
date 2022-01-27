@@ -26,7 +26,7 @@ function App() {
     AOS.refresh();
   });
   return (
-    <div className="text-white bg-background scroll-smooth">
+    <div className="scroll-smooth bg-background text-white">
       <Shell>
         <div>
           <Head>
@@ -66,7 +66,7 @@ function App() {
             title="CompanyName - Home"
             description="CompanyDescription"
           />
-          <div className="w-full mb-16 scroll-smooth">
+          <div className="mb-16 w-full scroll-smooth">
             {/* <Nav /> */}
             {/* <Hero /> */}
           </div>
